@@ -1,0 +1,370 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 13px;  
+}
+
+*::-webkit-scrollbar {
+    background-color:#fff;
+    width:16px
+}
+
+*::-webkit-scrollbar-track {
+    background-color:#fff
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:16px;
+    border:4px solid #fff
+}
+
+strong {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.loading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #525252;
+    margin-top: 5rem;
+}
+
+.my-bg {
+    background-image: url('../img/bg.jpg');
+}
+
+.header {
+    width: 100vw;
+    height: auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.my-nav {
+    padding: 0px;
+    background-color: #fff !important;
+}
+
+.logo {
+    width: 250px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.header__title {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.header__title {
+    cursor: pointer;
+}
+
+.form-to-find{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.form-to-find__input {  
+    height: 38px;
+    padding: 10px;
+    border: 1px solid #eae9ea;
+    border-radius: 10px 0 0 10px;
+}
+
+.form-to-find__input:focus{
+    outline: none;
+    height: 38px;
+    padding: 10px;
+    border: 1px solid #17a2b8;
+    border-radius: 10px 0 0 10px;
+}
+
+.form-to-find__button {
+    background-color: #6eca01;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0;
+}
+
+.form-to-find__button:hover{
+    cursor: pointer;
+    background-color: #6eca90;
+}
+
+.form-to-find__button:focus{
+    outline: none;
+    cursor: pointer;
+    background-color: #6eca90;
+}
+
+.menu-verb {
+    padding: 1rem;
+}
+
+.menu-verb>a {
+    font-size: 1.2rem
+}
+
+.content__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.study__content {
+    padding-top: 1rem;
+}
+
+.logo {
+    width: 250px;
+} 
+
+.footer {
+    width: 100%;
+    height: 30px;
+    padding: 1rem;
+    background-color: white;
+    border-top: 1px solid #ddd;
+} 
+
+/* modal */
+.modal-body {
+    padding: 0 !important;
+}
+
+.modal-search p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333;
+    margin: .5rem 0 .5rem 0
+}
+
+/* game */
+hr {
+    margin: .5rem;
+}
+
+.grid {
+    min-height: 100vh;
+}
+
+.grid-item {
+    width: 200px;
+    height: 150px;
+    padding: .5rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+    transition: box-shadow .2s;
+    font-family: 'Bree Serif'
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 9px 10px rgba(0, 0, 0, .7), 0 1px 10px 0 rgba(0, 0, 0, .68), 0 2px 4px -1px rgba(0, 0, 0, .9);
+}
+
+.Scoreboard {
+    display: flex;
+    justify-content: center;
+    color: #f8a91a;
+    padding: 0;
+    margin: 0;
+}
+
+.Scoreboard div {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.growth {
+    height: 2.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    background-color: #1C77C3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+@media screen and (min-width: 0px) {
+    .grid-item {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .grid-item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .grid-item {
+        width: 33.3333333%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .grid-item {
+        width: 20%;
+    }
+}
+
+.card-show-verb {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    font-family: 'Bree Serif'
+}
+
+.card-show-verb p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bree Serif'
+}
+
+.opacity-text {
+    color: #1E6894;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+/* modal start game */
+.rule {
+    text-align: center; 
+    padding: 0.5rem; 
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    color: #777 !important
+}
+
+.rule-title {
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px
+}
+
+.tutorial {
+    text-align: center;
+    padding: .5rem 2rem .5rem 2rem;
+    
+    margin-bottom: 1rem;
+}
+
+.tutorial p {
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0px
+} 
+
+.tutorial i {
+    border: 2px solid rgb(250, 197, 100);;
+    border-radius: .5rem;
+    padding: 1rem;
+    color: rgb(250, 197, 100);
+}
+
+.game-mode {
+    font-family: 'Bree Serif';
+}
+
+.game-mode .card {
+    margin-bottom: 1rem;
+}
+
+.game-mode img {
+        position: absolute;
+        left: 0px;
+        top: 2px;
+        width: 50px;
+        height: 50px;
+        z-index: 999;
+}
+
+.game-mode h1 {
+    width: 100%;
+    margin:0;
+    padding: .5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #444
+}
+
+.game-mode.row {
+    width: 100%;
+    padding: .5rem;
+    margin: 0px;
+}
+
+.game-mode p {
+    text-align: center;
+    color: #777;
+    margin: 0px
+}
+
+/* exercises */
+.exrcises {
+    margin-top: 1rem;
+    min-height: 100vh;
+}
+
+.question {
+    margin: 1rem;
+}
+
+.question p {
+    color: rgb(28, 97, 99);
+    padding: 1px;
+    margin-bottom: 0px;
+}
+
+.question form {
+    display: inline;
+}
+
+.question input {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.question span {
+    font-size: 16px !important;
+}
+
+.question__icon {
+    padding: .2rem;
+    padding-right: 0px;
+}
