@@ -371,7 +371,7 @@ view.showModalEndGame = function () {
             $("#resultImg").html(`
             <p style="line-height: 2.5rem;">Defeat</p>
             <img src="./img/coffeeCup.png" alt="CoffeeCup" style="width: 150px; height: 150px;">
-            <p>But it ok, You got a coffee cup</p>`);
+            <p>But it's ok, You got a coffee cup</p>`);
         })
     }
     if (model.oppsVerbs.length != 0) {
