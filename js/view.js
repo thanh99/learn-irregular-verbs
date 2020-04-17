@@ -264,7 +264,7 @@ view.showQuestions = function () {
             });
 
             $(`#checkAnswer-${i + 1}`).click(() => {
-                let val = $(`#inputQuestion-${i + 1}`).val().trim();
+                let val = $(`#inputQuestion-${i + 1}`).val().trim().toLowerCase();
                 if (val == element.answer) {
                     $(`#wrong-${i + 1}`).hide(200);
                     $(`#correct-${i + 1}`).show(200);
@@ -363,15 +363,15 @@ view.showModalEndGame = function () {
             $("#resultImg").html(`
             <p style="line-height: 2.5rem;">Victory</p>
             <img src="./img/victoryCup.png" alt="victoryCup" style="width: 150px; height: 150px;">
-            <p>You have a cup</p>`);
+            <p>You got a cup</p>`);
         })
     }
     else {
         $(document).ready(() => {
             $("#resultImg").html(`
-            <p style="line-height: 2.5rem;">Define</p>
+            <p style="line-height: 2.5rem;">Defeat</p>
             <img src="./img/coffeeCup.png" alt="CoffeeCup" style="width: 150px; height: 150px;">
-            <p>But it ok, You have a coffee cup</p>`);
+            <p>But it ok, You got a coffee cup</p>`);
         })
     }
     if (model.oppsVerbs.length != 0) {
@@ -383,7 +383,7 @@ view.showModalEndGame = function () {
         $(document).ready(() => {
             $("#resultFix").html(`
             <hr>
-            <p style="line-height: 2.5rem;">Careful with some verb: </p>
+            <p style="line-height: 2.5rem;">You should be careful when using some verbs: </p>
             <p>${s}</p>`);
         })
     }

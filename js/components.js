@@ -200,7 +200,7 @@ components.modalStartGame = `
                                     <h1 style="text-align: center;">Basic</h1>
                                 </div>
                                 <hr>
-                                <p>easy for every body</p>
+                                <p>easy for everyone</p>
                             </div>
                         </div>
                         <div id="mediumMode" class="col-sm-4" style="margin-bottom: 1rem;">
@@ -210,7 +210,7 @@ components.modalStartGame = `
                                     <h1 style="text-align: center;">Medium</h1>
                                 </div>
                                 <hr>
-                                <p style="text-align: center;">more verb and more hard</p>
+                                <p style="text-align: center;">more verbs and harder</p>
                             </div>
                         </div>
                         <div id="hardMode" class="col-sm-4" style="margin-bottom: 1rem;">
