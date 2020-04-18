@@ -277,7 +277,7 @@ view.showQuestions = function () {
 
             $(`#formQuestion-${i + 1}`).submit((e) => {
                 e.preventDefault();
-                let val = $(`#inputQuestion-${i + 1}`).val().trim();
+                let val = $(`#inputQuestion-${i + 1}`).val().trim().toLowerCase();
                 if (val == element.answer) {
                     $(`#wrong-${i + 1}`).hide(200);
                     $(`#correct-${i + 1}`).show(200);
