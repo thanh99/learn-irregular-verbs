@@ -23,7 +23,7 @@ components.navBar = `
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="margin-left: 1rem;">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link header__title" onclick="view.toStudy()">Study</a>
+                        <a class="nav-link header__title active" onclick="view.toStudy()" >Study</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link header__title" onclick="view.toExercises()">Exercises</a>
@@ -39,7 +39,7 @@ components.navBar = `
 components.footer = `
 <section class="footer">
     <p style="float: left">Made By DaoBaNhat, LeVanThanh</p>
-    <p style="float: right">Connect with us: daobanhat991999@gmail.com</p>
+    <p style="float: right">Connect with us: admin991999@gmail.com</p>
 </section>
 `
 

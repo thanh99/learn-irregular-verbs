@@ -66,6 +66,10 @@ strong {
 .header__title {
     cursor: pointer;
 }
+a:active{
+    color: blue;
+    background-color:red;
+}
 
 .form-to-find{
     display: flex;
@@ -337,7 +341,7 @@ hr {
 }
 
 .question p {
-    color: rgb(28, 97, 99);
+    color:green;
     padding: 1px;
     margin-bottom: 0px;
 }
